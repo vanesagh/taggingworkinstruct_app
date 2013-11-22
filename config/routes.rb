@@ -1,4 +1,7 @@
 TaggingworkinstructApp::Application.routes.draw do
+  get "static_pages/assmblyinst1"
+  get "static_pages/assmblyinst2"
+  get "static_pages/assmblyinst3"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
