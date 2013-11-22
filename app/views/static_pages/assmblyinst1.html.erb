@@ -1,2 +1,7 @@
-<h1>StaticPages#assmblyinst1</h1>
-<p>Find me in app/views/static_pages/assmblyinst1.html.erb</p>
+<% provide(:title, 'Variant 1')  %>
+
+  <div class="center hero-unit">
+  	<h1><%=wititle(yield(:title)) %> </h1>
+
+  </div>
+   
